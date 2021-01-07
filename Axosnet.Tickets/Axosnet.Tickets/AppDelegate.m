@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NetworkManager.h"
+
 
 @interface AppDelegate ()
 
@@ -24,8 +26,12 @@
 
 
 - (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
+    
+    [NetworkManager sharedManager];
     // Called when a new scene session is being created.
     // Use this method to select a configuration to create the new scene with.
+    NSDictionary *defaults = [NSDictionary dictionaryWithObjectsAndKeys:@"", @"token", nil];
+        [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
     return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
 }
 

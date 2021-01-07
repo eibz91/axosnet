@@ -1,0 +1,6 @@
+framework module Pods_Axosnet_Tickets {
+  umbrella header "Pods-Axosnet.Tickets-umbrella.h"
+
+  export *
+  module * { export * }
+}

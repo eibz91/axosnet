@@ -1,0 +1,11 @@
+//
+//  Prod.xcconfig
+//  Axosnet.Tickets
+//
+//  Created by eibz91 on 03/01/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_URL   = https:/$()/devapi.axosnet.com/am/v2/api_receipts_beta/api/receipt/

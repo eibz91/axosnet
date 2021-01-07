@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		547B60E8E8A0D8644819DD4A /* Pods_Axosnet_Tickets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC690FFE004E207CAFE157 /* Pods_Axosnet_Tickets.framework */; };
+		5A0023A125A29CB00044F273 /* ReceiptRespository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0023A025A29CB00044F273 /* ReceiptRespository.m */; };
+		5A19AD1625A7916500342F5C /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A19AD1525A7916500342F5C /* UIViewController+Alert.m */; };
+		5A50083525A4FE3800CB7829 /* ReceiptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A50083425A4FE3800CB7829 /* ReceiptCell.xib */; };
+		5A50083B25A4FEAA00CB7829 /* ReceiptCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50083A25A4FEAA00CB7829 /* ReceiptCell.m */; };
+		5A50084C25A5106900CB7829 /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50084B25A5106900CB7829 /* Receipt.m */; };
 		5A680C3E25A1291F0017A840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A680C3D25A1291F0017A840 /* AppDelegate.m */; };
 		5A680C4125A1291F0017A840 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A680C4025A1291F0017A840 /* SceneDelegate.m */; };
 		5A680C4425A1291F0017A840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A680C4325A1291F0017A840 /* ViewController.m */; };
@@ -16,6 +22,13 @@
 		5A680C4F25A129200017A840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A680C4E25A129200017A840 /* main.m */; };
 		5A680C5925A129200017A840 /* Axosnet_TicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A680C5825A129200017A840 /* Axosnet_TicketsTests.m */; };
 		5A680C6425A129200017A840 /* Axosnet_TicketsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A680C6325A129200017A840 /* Axosnet_TicketsUITests.m */; };
+		5A680C9725A241C70017A840 /* Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A680C9625A241C70017A840 /* Dev.plist */; };
+		5A680C9C25A241D50017A840 /* Local.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A680C9B25A241D50017A840 /* Local.plist */; };
+		5A680CCE25A2529A0017A840 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A680CCD25A2529A0017A840 /* NetworkManager.m */; };
+		5AF8FDB325A643130093E028 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AF8FDB525A643130093E028 /* Localizable.strings */; };
+		5AF8FDBF25A6632B0093E028 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8FDBE25A6632B0093E028 /* DetailViewController.m */; };
+		F303907EA68A5171C21DA56D /* Pods_Axosnet_TicketsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E94191DE483B7D05FD060A /* Pods_Axosnet_TicketsTests.framework */; };
+		F5986B8CE84A02B324379AD4 /* Pods_Axosnet_Tickets_Axosnet_TicketsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72242EFF3EF45F84EF0B521 /* Pods_Axosnet_Tickets_Axosnet_TicketsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E65C4858106364ED80B844 /* Pods-Axosnet.TicketsTests.debug dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.debug dev.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.debug dev.xcconfig"; sourceTree = "<group>"; };
+		1C060A270834188572CA5AEA /* Pods-Axosnet.TicketsTests.debug local.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.debug local.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.debug local.xcconfig"; sourceTree = "<group>"; };
+		23538FD3BF9E011190B99DE1 /* Pods-Axosnet.TicketsTests.release local.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.release local.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.release local.xcconfig"; sourceTree = "<group>"; };
+		28AC690FFE004E207CAFE157 /* Pods_Axosnet_Tickets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Axosnet_Tickets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AC2FBF27230F86AEADDD90 /* Pods-Axosnet.TicketsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.release.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.release.xcconfig"; sourceTree = "<group>"; };
+		34DFC31371BAB91B3C310E61 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug local.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug local.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug local.xcconfig"; sourceTree = "<group>"; };
+		3718617F6F0B04EEE25B7C74 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release prod.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release prod.xcconfig"; sourceTree = "<group>"; };
+		454B6DEAEC4D2C54FE145299 /* Pods-Axosnet.Tickets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.debug.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.debug.xcconfig"; sourceTree = "<group>"; };
+		4E8BE9C88077E28E38F89197 /* Pods-Axosnet.Tickets.release local.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.release local.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.release local.xcconfig"; sourceTree = "<group>"; };
+		530851E27932E00CF7FAFF2A /* Pods-Axosnet.TicketsTests.release dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.release dev.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.release dev.xcconfig"; sourceTree = "<group>"; };
+		5A00239F25A29CA70044F273 /* ReceiptRespository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiptRespository.h; sourceTree = "<group>"; };
+		5A0023A025A29CB00044F273 /* ReceiptRespository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiptRespository.m; sourceTree = "<group>"; };
+		5A19AD1525A7916500342F5C /* UIViewController+Alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		5A19AD1A25A7918E00342F5C /* UIViewController+Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		5A19AD2225A7B6A800342F5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		5A19AD2425A7B6AA00342F5C /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		5A50083425A4FE3800CB7829 /* ReceiptCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptCell.xib; sourceTree = "<group>"; };
+		5A50083925A4FEAA00CB7829 /* ReceiptCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiptCell.h; sourceTree = "<group>"; };
+		5A50083A25A4FEAA00CB7829 /* ReceiptCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiptCell.m; sourceTree = "<group>"; };
+		5A50084A25A5104C00CB7829 /* Receipt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		5A50084B25A5106900CB7829 /* Receipt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
 		5A680C3925A1291F0017A840 /* Axosnet.Tickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Axosnet.Tickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A680C3C25A1291F0017A840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A680C3D25A1291F0017A840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,7 +80,7 @@
 		5A680C4625A1291F0017A840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A680C4825A129200017A840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A680C4B25A129200017A840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5A680C4D25A129200017A840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A680C4D25A129200017A840 /* Prod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Prod.plist; sourceTree = "<group>"; };
 		5A680C4E25A129200017A840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A680C5425A129200017A840 /* Axosnet.TicketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Axosnet.TicketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A680C5825A129200017A840 /* Axosnet_TicketsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Axosnet_TicketsTests.m; sourceTree = "<group>"; };
@@ -54,6 +88,35 @@
 		5A680C5F25A129200017A840 /* Axosnet.TicketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Axosnet.TicketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A680C6325A129200017A840 /* Axosnet_TicketsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Axosnet_TicketsUITests.m; sourceTree = "<group>"; };
 		5A680C6525A129200017A840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A680C9325A241710017A840 /* Local.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Local.xcconfig; sourceTree = "<group>"; };
+		5A680C9425A2417C0017A840 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		5A680C9525A241850017A840 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
+		5A680C9625A241C70017A840 /* Dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Dev.plist; sourceTree = "<group>"; };
+		5A680C9B25A241D50017A840 /* Local.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Local.plist; sourceTree = "<group>"; };
+		5A680CC925A251840017A840 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		5A680CCD25A2529A0017A840 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		5AF8FDA425A6412D0093E028 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5AF8FDB425A643130093E028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5AF8FDB925A643160093E028 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5AF8FDBD25A662FE0093E028 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5AF8FDBE25A6632B0093E028 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		66D154A40A439595A5D931D0 /* Pods-Axosnet.Tickets.debug local.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.debug local.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.debug local.xcconfig"; sourceTree = "<group>"; };
+		68FB36BDA87DE1C6BA8E2D62 /* Pods-Axosnet.Tickets.debug dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.debug dev.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.debug dev.xcconfig"; sourceTree = "<group>"; };
+		6A4D1D2E2BE2E72E4EE82AD5 /* Pods-Axosnet.TicketsTests.debug prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.debug prod.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.debug prod.xcconfig"; sourceTree = "<group>"; };
+		70F8EAD6A39E60196DA58D96 /* Pods-Axosnet.TicketsTests.release prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.release prod.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.release prod.xcconfig"; sourceTree = "<group>"; };
+		768E203653C04EB70E043DE7 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release dev.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release dev.xcconfig"; sourceTree = "<group>"; };
+		82321BA676D84E70C1924D2D /* Pods-Axosnet.Tickets.debug prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.debug prod.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.debug prod.xcconfig"; sourceTree = "<group>"; };
+		8431244A90AB336E57745602 /* Pods-Axosnet.TicketsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.TicketsTests.debug.xcconfig"; path = "Target Support Files/Pods-Axosnet.TicketsTests/Pods-Axosnet.TicketsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		879CE2554183658C0576533E /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release local.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release local.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release local.xcconfig"; sourceTree = "<group>"; };
+		AFE7CE7CB1C98DE2D9EACB86 /* Pods-Axosnet.Tickets.release dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.release dev.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.release dev.xcconfig"; sourceTree = "<group>"; };
+		B0D1860305A1E962C6012CD4 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8E94191DE483B7D05FD060A /* Pods_Axosnet_TicketsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Axosnet_TicketsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA03C6A1A6FAE0B5C321F021 /* Pods-Axosnet.Tickets.release prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.release prod.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.release prod.xcconfig"; sourceTree = "<group>"; };
+		D72242EFF3EF45F84EF0B521 /* Pods_Axosnet_Tickets_Axosnet_TicketsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Axosnet_Tickets_Axosnet_TicketsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D877FB1996B404B83F1A0A1B /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB183B07085B42E4D9645904 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug dev.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug dev.xcconfig"; sourceTree = "<group>"; };
+		E16070AECC945C5EE53B5B43 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug prod.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug prod.xcconfig"; sourceTree = "<group>"; };
+		F9FA4FEEE85BEFF98AC22E81 /* Pods-Axosnet.Tickets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Axosnet.Tickets.release.xcconfig"; path = "Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547B60E8E8A0D8644819DD4A /* Pods_Axosnet_Tickets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F303907EA68A5171C21DA56D /* Pods_Axosnet_TicketsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +140,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5986B8CE84A02B324379AD4 /* Pods_Axosnet_Tickets_Axosnet_TicketsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10661962588D30E9D2697F95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28AC690FFE004E207CAFE157 /* Pods_Axosnet_Tickets.framework */,
+				D72242EFF3EF45F84EF0B521 /* Pods_Axosnet_Tickets_Axosnet_TicketsUITests.framework */,
+				B8E94191DE483B7D05FD060A /* Pods_Axosnet_TicketsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A00239E25A29C890044F273 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5A00239F25A29CA70044F273 /* ReceiptRespository.h */,
+				5A0023A025A29CB00044F273 /* ReceiptRespository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5A50081F25A407AC00CB7829 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5A50083425A4FE3800CB7829 /* ReceiptCell.xib */,
+				5A50083925A4FEAA00CB7829 /* ReceiptCell.h */,
+				5A50083A25A4FEAA00CB7829 /* ReceiptCell.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		5A50088125A5792100CB7829 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A680C4225A1291F0017A840 /* ViewController.h */,
+				5A680C4325A1291F0017A840 /* ViewController.m */,
+				5AF8FDBD25A662FE0093E028 /* DetailViewController.h */,
+				5AF8FDBE25A6632B0093E028 /* DetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		5A680C3025A1291F0017A840 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +194,8 @@
 				5A680C5725A129200017A840 /* Axosnet.TicketsTests */,
 				5A680C6225A129200017A840 /* Axosnet.TicketsUITests */,
 				5A680C3A25A1291F0017A840 /* Products */,
+				F58E4286790CBF6930FA882C /* Pods */,
+				10661962588D30E9D2697F95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +212,26 @@
 		5A680C3B25A1291F0017A840 /* Axosnet.Tickets */ = {
 			isa = PBXGroup;
 			children = (
+				5AF8FDAD25A642F10093E028 /* Support */,
+				5A50088125A5792100CB7829 /* ViewController */,
+				5A50081F25A407AC00CB7829 /* CustomView */,
+				5A00239E25A29C890044F273 /* Repository */,
+				5A680CD925A275560017A840 /* Model */,
+				5A680CC825A2515E0017A840 /* Networking */,
 				5A680C3C25A1291F0017A840 /* AppDelegate.h */,
 				5A680C3D25A1291F0017A840 /* AppDelegate.m */,
 				5A680C3F25A1291F0017A840 /* SceneDelegate.h */,
 				5A680C4025A1291F0017A840 /* SceneDelegate.m */,
-				5A680C4225A1291F0017A840 /* ViewController.h */,
-				5A680C4325A1291F0017A840 /* ViewController.m */,
 				5A680C4525A1291F0017A840 /* Main.storyboard */,
 				5A680C4825A129200017A840 /* Assets.xcassets */,
 				5A680C4A25A129200017A840 /* LaunchScreen.storyboard */,
-				5A680C4D25A129200017A840 /* Info.plist */,
+				5A680C4D25A129200017A840 /* Prod.plist */,
 				5A680C4E25A129200017A840 /* main.m */,
+				5A680C9325A241710017A840 /* Local.xcconfig */,
+				5A680C9425A2417C0017A840 /* Dev.xcconfig */,
+				5A680C9525A241850017A840 /* Prod.xcconfig */,
+				5A680C9625A241C70017A840 /* Dev.plist */,
+				5A680C9B25A241D50017A840 /* Local.plist */,
 			);
 			path = Axosnet.Tickets;
 			sourceTree = "<group>";
@@ -137,6 +254,65 @@
 			path = Axosnet.TicketsUITests;
 			sourceTree = "<group>";
 		};
+		5A680CC825A2515E0017A840 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5A680CC925A251840017A840 /* NetworkManager.h */,
+				5A680CCD25A2529A0017A840 /* NetworkManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5A680CD925A275560017A840 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A50084A25A5104C00CB7829 /* Receipt.h */,
+				5A50084B25A5106900CB7829 /* Receipt.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AF8FDAD25A642F10093E028 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8FDB525A643130093E028 /* Localizable.strings */,
+				5A19AD1A25A7918E00342F5C /* UIViewController+Alert.h */,
+				5A19AD1525A7916500342F5C /* UIViewController+Alert.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F58E4286790CBF6930FA882C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				454B6DEAEC4D2C54FE145299 /* Pods-Axosnet.Tickets.debug.xcconfig */,
+				F9FA4FEEE85BEFF98AC22E81 /* Pods-Axosnet.Tickets.release.xcconfig */,
+				D877FB1996B404B83F1A0A1B /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug.xcconfig */,
+				B0D1860305A1E962C6012CD4 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release.xcconfig */,
+				8431244A90AB336E57745602 /* Pods-Axosnet.TicketsTests.debug.xcconfig */,
+				31AC2FBF27230F86AEADDD90 /* Pods-Axosnet.TicketsTests.release.xcconfig */,
+				66D154A40A439595A5D931D0 /* Pods-Axosnet.Tickets.debug local.xcconfig */,
+				68FB36BDA87DE1C6BA8E2D62 /* Pods-Axosnet.Tickets.debug dev.xcconfig */,
+				82321BA676D84E70C1924D2D /* Pods-Axosnet.Tickets.debug prod.xcconfig */,
+				4E8BE9C88077E28E38F89197 /* Pods-Axosnet.Tickets.release local.xcconfig */,
+				AFE7CE7CB1C98DE2D9EACB86 /* Pods-Axosnet.Tickets.release dev.xcconfig */,
+				BA03C6A1A6FAE0B5C321F021 /* Pods-Axosnet.Tickets.release prod.xcconfig */,
+				34DFC31371BAB91B3C310E61 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug local.xcconfig */,
+				DB183B07085B42E4D9645904 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug dev.xcconfig */,
+				E16070AECC945C5EE53B5B43 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug prod.xcconfig */,
+				879CE2554183658C0576533E /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release local.xcconfig */,
+				768E203653C04EB70E043DE7 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release dev.xcconfig */,
+				3718617F6F0B04EEE25B7C74 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release prod.xcconfig */,
+				1C060A270834188572CA5AEA /* Pods-Axosnet.TicketsTests.debug local.xcconfig */,
+				06E65C4858106364ED80B844 /* Pods-Axosnet.TicketsTests.debug dev.xcconfig */,
+				6A4D1D2E2BE2E72E4EE82AD5 /* Pods-Axosnet.TicketsTests.debug prod.xcconfig */,
+				23538FD3BF9E011190B99DE1 /* Pods-Axosnet.TicketsTests.release local.xcconfig */,
+				530851E27932E00CF7FAFF2A /* Pods-Axosnet.TicketsTests.release dev.xcconfig */,
+				70F8EAD6A39E60196DA58D96 /* Pods-Axosnet.TicketsTests.release prod.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A680C6825A129200017A840 /* Build configuration list for PBXNativeTarget "Axosnet.Tickets" */;
 			buildPhases = (
+				516526D4FB32C69C7F0EB732 /* [CP] Check Pods Manifest.lock */,
 				5A680C3525A1291F0017A840 /* Sources */,
 				5A680C3625A1291F0017A840 /* Frameworks */,
 				5A680C3725A1291F0017A840 /* Resources */,
+				CAD88B92C0B7D229F2AA8DEB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +339,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A680C6B25A129200017A840 /* Build configuration list for PBXNativeTarget "Axosnet.TicketsTests" */;
 			buildPhases = (
+				6E76D15CD3890F417104A75A /* [CP] Check Pods Manifest.lock */,
 				5A680C5025A129200017A840 /* Sources */,
 				5A680C5125A129200017A840 /* Frameworks */,
 				5A680C5225A129200017A840 /* Resources */,
@@ -179,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A680C6E25A129200017A840 /* Build configuration list for PBXNativeTarget "Axosnet.TicketsUITests" */;
 			buildPhases = (
+				9BE48FDF2EC417A2D504D690 /* [CP] Check Pods Manifest.lock */,
 				5A680C5B25A129200017A840 /* Sources */,
 				5A680C5C25A129200017A840 /* Frameworks */,
 				5A680C5D25A129200017A840 /* Resources */,
+				0253A12A0415FBC00E3EC673 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +402,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 5A680C3025A1291F0017A840;
 			productRefGroup = 5A680C3A25A1291F0017A840 /* Products */;
@@ -241,7 +423,11 @@
 			files = (
 				5A680C4C25A129200017A840 /* LaunchScreen.storyboard in Resources */,
 				5A680C4925A129200017A840 /* Assets.xcassets in Resources */,
+				5A680C9C25A241D50017A840 /* Local.plist in Resources */,
+				5AF8FDB325A643130093E028 /* Localizable.strings in Resources */,
 				5A680C4725A1291F0017A840 /* Main.storyboard in Resources */,
+				5A50083525A4FE3800CB7829 /* ReceiptCell.xib in Resources */,
+				5A680C9725A241C70017A840 /* Dev.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +447,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0253A12A0415FBC00E3EC673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Axosnet.Tickets-Axosnet.TicketsUITests/Pods-Axosnet.Tickets-Axosnet.TicketsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		516526D4FB32C69C7F0EB732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Axosnet.Tickets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E76D15CD3890F417104A75A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Axosnet.TicketsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE48FDF2EC417A2D504D690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Axosnet.Tickets-Axosnet.TicketsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD88B92C0B7D229F2AA8DEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Axosnet.Tickets/Pods-Axosnet.Tickets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A680C3525A1291F0017A840 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,7 +558,13 @@
 				5A680C4425A1291F0017A840 /* ViewController.m in Sources */,
 				5A680C3E25A1291F0017A840 /* AppDelegate.m in Sources */,
 				5A680C4F25A129200017A840 /* main.m in Sources */,
+				5A19AD1625A7916500342F5C /* UIViewController+Alert.m in Sources */,
+				5A680CCE25A2529A0017A840 /* NetworkManager.m in Sources */,
+				5A50083B25A4FEAA00CB7829 /* ReceiptCell.m in Sources */,
+				5AF8FDBF25A6632B0093E028 /* DetailViewController.m in Sources */,
+				5A0023A125A29CB00044F273 /* ReceiptRespository.m in Sources */,
 				5A680C4125A1291F0017A840 /* SceneDelegate.m in Sources */,
+				5A50084C25A5106900CB7829 /* Receipt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +604,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A680C4625A1291F0017A840 /* Base */,
+				5A19AD2225A7B6A800342F5C /* en */,
+				5A19AD2425A7B6AA00342F5C /* es-419 */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,17 +614,29 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A680C4B25A129200017A840 /* Base */,
+				5AF8FDA425A6412D0093E028 /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF8FDB525A643130093E028 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF8FDB425A643130093E028 /* en */,
+				5AF8FDB925A643160093E028 /* es-419 */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5A680C6625A129200017A840 /* Debug */ = {
+		5A680C6625A129200017A840 /* Debug Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A680C9325A241710017A840 /* Local.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,12 +690,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
-			name = Debug;
+			name = "Debug Local";
 		};
-		5A680C6725A129200017A840 /* Release */ = {
+		5A680C6725A129200017A840 /* Release Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A680C9325A241710017A840 /* Local.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -434,46 +745,49 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release Local";
 		};
-		5A680C6925A129200017A840 /* Debug */ = {
+		5A680C6925A129200017A840 /* Debug Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D154A40A439595A5D931D0 /* Pods-Axosnet.Tickets.debug local.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2KRKTJMH3;
-				INFOPLIST_FILE = Axosnet.Tickets/Info.plist;
+				INFOPLIST_FILE = Axosnet.Tickets/Local.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-Tickets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Debug;
+			name = "Debug Local";
 		};
-		5A680C6A25A129200017A840 /* Release */ = {
+		5A680C6A25A129200017A840 /* Release Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8BE9C88077E28E38F89197 /* Pods-Axosnet.Tickets.release local.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2KRKTJMH3;
-				INFOPLIST_FILE = Axosnet.Tickets/Info.plist;
+				INFOPLIST_FILE = Axosnet.Tickets/Local.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-Tickets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Release;
+			name = "Release Local";
 		};
-		5A680C6C25A129200017A840 /* Debug */ = {
+		5A680C6C25A129200017A840 /* Debug Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C060A270834188572CA5AEA /* Pods-Axosnet.TicketsTests.debug local.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,10 +804,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axosnet.Tickets.app/Axosnet.Tickets";
 			};
-			name = Debug;
+			name = "Debug Local";
 		};
-		5A680C6D25A129200017A840 /* Release */ = {
+		5A680C6D25A129200017A840 /* Release Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23538FD3BF9E011190B99DE1 /* Pods-Axosnet.TicketsTests.release local.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -510,10 +825,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axosnet.Tickets.app/Axosnet.Tickets";
 			};
-			name = Release;
+			name = "Release Local";
 		};
-		5A680C6F25A129200017A840 /* Debug */ = {
+		5A680C6F25A129200017A840 /* Debug Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DFC31371BAB91B3C310E61 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug local.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2KRKTJMH3;
@@ -528,10 +844,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Axosnet.Tickets;
 			};
-			name = Debug;
+			name = "Debug Local";
 		};
-		5A680C7025A129200017A840 /* Release */ = {
+		5A680C7025A129200017A840 /* Release Local */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879CE2554183658C0576533E /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release local.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2KRKTJMH3;
@@ -546,7 +863,475 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Axosnet.Tickets;
 			};
-			name = Release;
+			name = "Release Local";
+		};
+		5A680C8025A240150017A840 /* Debug Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A680C9425A2417C0017A840 /* Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug Dev";
+		};
+		5A680C8125A240150017A840 /* Debug Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FB36BDA87DE1C6BA8E2D62 /* Pods-Axosnet.Tickets.debug dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.Tickets/Dev.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug Dev";
+		};
+		5A680C8225A240150017A840 /* Debug Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E65C4858106364ED80B844 /* Pods-Axosnet.TicketsTests.debug dev.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axosnet.Tickets.app/Axosnet.Tickets";
+			};
+			name = "Debug Dev";
+		};
+		5A680C8325A240150017A840 /* Debug Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB183B07085B42E4D9645904 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug dev.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Axosnet.Tickets;
+			};
+			name = "Debug Dev";
+		};
+		5A680C8425A2401D0017A840 /* Debug Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A680C9525A241850017A840 /* Prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug Prod";
+		};
+		5A680C8525A2401D0017A840 /* Debug Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82321BA676D84E70C1924D2D /* Pods-Axosnet.Tickets.debug prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.Tickets/Prod.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug Prod";
+		};
+		5A680C8625A2401D0017A840 /* Debug Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4D1D2E2BE2E72E4EE82AD5 /* Pods-Axosnet.TicketsTests.debug prod.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axosnet.Tickets.app/Axosnet.Tickets";
+			};
+			name = "Debug Prod";
+		};
+		5A680C8725A2401D0017A840 /* Debug Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16070AECC945C5EE53B5B43 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.debug prod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Axosnet.Tickets;
+			};
+			name = "Debug Prod";
+		};
+		5A680C8825A2402D0017A840 /* Release Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A680C9425A2417C0017A840 /* Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Dev";
+		};
+		5A680C8925A2402D0017A840 /* Release Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE7CE7CB1C98DE2D9EACB86 /* Pods-Axosnet.Tickets.release dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.Tickets/Dev.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release Dev";
+		};
+		5A680C8A25A2402D0017A840 /* Release Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530851E27932E00CF7FAFF2A /* Pods-Axosnet.TicketsTests.release dev.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axosnet.Tickets.app/Axosnet.Tickets";
+			};
+			name = "Release Dev";
+		};
+		5A680C8B25A2402D0017A840 /* Release Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768E203653C04EB70E043DE7 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release dev.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Axosnet.Tickets;
+			};
+			name = "Release Dev";
+		};
+		5A680C8C25A240340017A840 /* Release Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A680C9525A241850017A840 /* Prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Prod";
+		};
+		5A680C8D25A240340017A840 /* Release Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA03C6A1A6FAE0B5C321F021 /* Pods-Axosnet.Tickets.release prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.Tickets/Prod.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release Prod";
+		};
+		5A680C8E25A240340017A840 /* Release Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F8EAD6A39E60196DA58D96 /* Pods-Axosnet.TicketsTests.release prod.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axosnet.Tickets.app/Axosnet.Tickets";
+			};
+			name = "Release Prod";
+		};
+		5A680C8F25A240340017A840 /* Release Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3718617F6F0B04EEE25B7C74 /* Pods-Axosnet.Tickets-Axosnet.TicketsUITests.release prod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2KRKTJMH3;
+				INFOPLIST_FILE = Axosnet.TicketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Axosnet-TicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Axosnet.Tickets;
+			};
+			name = "Release Prod";
 		};
 /* End XCBuildConfiguration section */
 
@@ -554,38 +1339,54 @@
 		5A680C3425A1291F0017A840 /* Build configuration list for PBXProject "Axosnet.Tickets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A680C6625A129200017A840 /* Debug */,
-				5A680C6725A129200017A840 /* Release */,
+				5A680C6625A129200017A840 /* Debug Local */,
+				5A680C8025A240150017A840 /* Debug Dev */,
+				5A680C8425A2401D0017A840 /* Debug Prod */,
+				5A680C6725A129200017A840 /* Release Local */,
+				5A680C8825A2402D0017A840 /* Release Dev */,
+				5A680C8C25A240340017A840 /* Release Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug Local";
 		};
 		5A680C6825A129200017A840 /* Build configuration list for PBXNativeTarget "Axosnet.Tickets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A680C6925A129200017A840 /* Debug */,
-				5A680C6A25A129200017A840 /* Release */,
+				5A680C6925A129200017A840 /* Debug Local */,
+				5A680C8125A240150017A840 /* Debug Dev */,
+				5A680C8525A2401D0017A840 /* Debug Prod */,
+				5A680C6A25A129200017A840 /* Release Local */,
+				5A680C8925A2402D0017A840 /* Release Dev */,
+				5A680C8D25A240340017A840 /* Release Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug Local";
 		};
 		5A680C6B25A129200017A840 /* Build configuration list for PBXNativeTarget "Axosnet.TicketsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A680C6C25A129200017A840 /* Debug */,
-				5A680C6D25A129200017A840 /* Release */,
+				5A680C6C25A129200017A840 /* Debug Local */,
+				5A680C8225A240150017A840 /* Debug Dev */,
+				5A680C8625A2401D0017A840 /* Debug Prod */,
+				5A680C6D25A129200017A840 /* Release Local */,
+				5A680C8A25A2402D0017A840 /* Release Dev */,
+				5A680C8E25A240340017A840 /* Release Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug Local";
 		};
 		5A680C6E25A129200017A840 /* Build configuration list for PBXNativeTarget "Axosnet.TicketsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A680C6F25A129200017A840 /* Debug */,
-				5A680C7025A129200017A840 /* Release */,
+				5A680C6F25A129200017A840 /* Debug Local */,
+				5A680C8325A240150017A840 /* Debug Dev */,
+				5A680C8725A2401D0017A840 /* Debug Prod */,
+				5A680C7025A129200017A840 /* Release Local */,
+				5A680C8B25A2402D0017A840 /* Release Dev */,
+				5A680C8F25A240340017A840 /* Release Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug Local";
 		};
 /* End XCConfigurationList section */
 	};
