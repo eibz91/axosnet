@@ -5,3 +5,13 @@
   Created by eibz91 on 06/01/21.
   
 */
+
+"hola" = "hola en español";
+"main_view_list" = "No se pudo obtener datos del servidor";
+"main_view_delete_row" = "El row no pudo ser borrado";
+"detai_view_title_new" = "Nuevo";
+"detai_view_title_edit" = "Editar";
+"detai_view_detail_fetch" = "No se pudo obtener el detalle de este recibo";
+"detai_view_detail_update" = "No se pudo actualizar el recibo";
+"detai_view_detail_create" = "No se pudo crear el recibo";
+"detai_view_detail_validation" = "Favor de completar todos los campos";

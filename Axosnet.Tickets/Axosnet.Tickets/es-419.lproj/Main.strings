@@ -1,27 +1,27 @@
 
 /* Class = "UITextField"; placeholder = "Amount"; ObjectID = "JOJ-pc-Ryy"; */
-"JOJ-pc-Ryy.placeholder" = "Amount";
+"JOJ-pc-Ryy.placeholder" = "Cantidad";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XAB-j0-GIm"; */
-"XAB-j0-GIm.normalTitle" = "Button";
+"XAB-j0-GIm.normalTitle" = "Guardar";
 
 /* Class = "UITextField"; placeholder = "Currency"; ObjectID = "ZtC-cb-gmb"; */
-"ZtC-cb-gmb.placeholder" = "Currency";
+"ZtC-cb-gmb.placeholder" = "Monedda";
 
 /* Class = "UIButton"; normalTitle = "Back"; ObjectID = "a5Y-ZQ-hN0"; */
-"a5Y-ZQ-hN0.normalTitle" = "Back";
+"a5Y-ZQ-hN0.normalTitle" = "Atras";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "gLi-G9-25p"; */
-"gLi-G9-25p.text" = "Label";
+"gLi-G9-25p.text" = "Listado";
 
 /* Class = "UIButton"; normalTitle = "+"; ObjectID = "he0-0e-MV9"; */
 "he0-0e-MV9.normalTitle" = "+";
 
 /* Class = "UITextField"; placeholder = "Date"; ObjectID = "muu-mL-qqj"; */
-"muu-mL-qqj.placeholder" = "Date";
+"muu-mL-qqj.placeholder" = "Fecha";
 
 /* Class = "UITextField"; placeholder = "Provider"; ObjectID = "nzG-Ja-eeC"; */
-"nzG-Ja-eeC.placeholder" = "Provider";
+"nzG-Ja-eeC.placeholder" = "Proveedor";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "xbo-K7-iN3"; */
-"xbo-K7-iN3.text" = "Label";
+"xbo-K7-iN3.text" = "Listado";

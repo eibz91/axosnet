@@ -5,3 +5,13 @@
   Created by eibz91 on 06/01/21.
   
 */
+
+"hola" = "hola en ingles";
+"main_view_list" = "Fetch data from server can not be complete";
+"main_view_delete_row" = "The row cant be deleted";
+"detai_view_title_new" = "New";
+"detai_view_title_edit" = "Edit";
+"detai_view_detail_fetch" = "Cant get detail data from this Receipt";
+"detai_view_detail_update" = "Cant update this Receipt";
+"detai_view_detail_create" = "Cant create this Receipt";
+"detai_view_detail_validation" = "All field must be complete";

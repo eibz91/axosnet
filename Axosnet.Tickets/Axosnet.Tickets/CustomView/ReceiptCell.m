@@ -24,6 +24,7 @@ Receipt *receipt;
 
 - (void)setData:(Receipt *)receipt{
     self.titleLabel.text = receipt.provider;
+    self.commentLabel.text = receipt.comment;
 }
 
 @end

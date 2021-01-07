@@ -3,7 +3,7 @@
 "JOJ-pc-Ryy.placeholder" = "Amount";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XAB-j0-GIm"; */
-"XAB-j0-GIm.normalTitle" = "Button";
+"XAB-j0-GIm.normalTitle" = "Save";
 
 /* Class = "UITextField"; placeholder = "Currency"; ObjectID = "ZtC-cb-gmb"; */
 "ZtC-cb-gmb.placeholder" = "Currency";
@@ -12,7 +12,7 @@
 "a5Y-ZQ-hN0.normalTitle" = "Back";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "gLi-G9-25p"; */
-"gLi-G9-25p.text" = "Label";
+"gLi-G9-25p.text" = "List";
 
 /* Class = "UIButton"; normalTitle = "+"; ObjectID = "he0-0e-MV9"; */
 "he0-0e-MV9.normalTitle" = "+";
@@ -24,4 +24,4 @@
 "nzG-Ja-eeC.placeholder" = "Provider";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "xbo-K7-iN3"; */
-"xbo-K7-iN3.text" = "Label";
+"xbo-K7-iN3.text" = "List";

@@ -16,8 +16,14 @@
                 <rect key="frame" x="0.0" y="0.0" width="429" height="112"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label asjdaskjdlkajd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ed-jm-KVf">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ed-jm-KVf">
                         <rect key="frame" x="20" y="27" width="152" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2zM-jp-lyH">
+                        <rect key="frame" x="20" y="65" width="389" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -25,15 +31,18 @@
                 </subviews>
                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                 <constraints>
+                    <constraint firstItem="2zM-jp-lyH" firstAttribute="leading" secondItem="DqO-RA-JhI" secondAttribute="leading" constant="20" symbolic="YES" id="37a-a8-zza"/>
                     <constraint firstAttribute="trailing" secondItem="4ed-jm-KVf" secondAttribute="trailing" constant="257" id="DDb-Qz-8r8"/>
+                    <constraint firstItem="2zM-jp-lyH" firstAttribute="top" secondItem="4ed-jm-KVf" secondAttribute="bottom" constant="17" id="LCg-c4-qC0"/>
+                    <constraint firstAttribute="trailing" secondItem="2zM-jp-lyH" secondAttribute="trailing" constant="20" symbolic="YES" id="j4K-gj-hhG"/>
                     <constraint firstItem="4ed-jm-KVf" firstAttribute="leading" secondItem="DqO-RA-JhI" secondAttribute="leading" constant="20" symbolic="YES" id="uTS-Om-ac2"/>
                     <constraint firstItem="4ed-jm-KVf" firstAttribute="top" secondItem="DqO-RA-JhI" secondAttribute="top" constant="27" id="wJV-Cb-AIc"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" red="0.0" green="0.7843137255" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
             <connections>
-                <outlet property="nameLabel" destination="4ed-jm-KVf" id="yfn-9S-Ekn"/>
-                <outlet property="titleLabel" destination="4ed-jm-KVf" id="pmP-7o-Sjy"/>
+                <outlet property="commentLabel" destination="2zM-jp-lyH" id="aol-4f-v02"/>
+                <outlet property="titleLabel" destination="4ed-jm-KVf" id="fZt-Rs-Qln"/>
             </connections>
             <point key="canvasLocation" x="174.63768115942031" y="-145.3125"/>
         </tableViewCell>
